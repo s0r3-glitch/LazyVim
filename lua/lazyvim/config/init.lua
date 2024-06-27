@@ -177,7 +177,7 @@ function M.setup(opts)
       if lazy_autocmds then
         M.load("autocmds")
       end
-      M.load("keymaps")
+     -- M.load("keymaps")
 
       LazyVim.format.setup()
       LazyVim.news.setup()
@@ -201,20 +201,6 @@ function M.setup(opts)
     end,
   })
 
-  LazyVim.track("colorscheme")
-  LazyVim.try(function()
-    if type(M.colorscheme) == "function" then
-      M.colorscheme()
-    else
-      vim.cmd.colorscheme(M.colorscheme)
-    end
-  end, {
-    msg = "Could not load your colorscheme",
-    on_error = function(msg)
-      LazyVim.error(msg)
-      vim.cmd.colorscheme("habamax")
-    end,
-  })
   LazyVim.track()
 end
 
