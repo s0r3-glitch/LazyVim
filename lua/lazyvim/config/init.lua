@@ -10,10 +10,7 @@ LazyVim.config = M
 local defaults = {
   -- colorscheme can be a string like `catppuccin` or a function that will load the colorscheme
   ---@type string|fun()
-  colorscheme = function()
-    require("tokyonight").load()
-  end,
-  -- load the default settings
+ -- load the default settings
   defaults = {
     autocmds = true, -- lazyvim.config.autocmds
     keymaps = true, -- lazyvim.config.keymaps
