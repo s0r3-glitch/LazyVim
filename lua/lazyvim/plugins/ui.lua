@@ -68,8 +68,8 @@ return {
         end,
         offsets = {
           {
-            filetype = "nvim-tree",
-            text = "nvim-tree",
+            filetype = "NvimTree",
+            text = "NvimTree",
             highlight = "Directory",
             text_align = "left",
           },
