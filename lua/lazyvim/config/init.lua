@@ -177,7 +177,7 @@ function M.setup(opts)
       if lazy_autocmds then
         M.load("autocmds")
       end
-     -- M.load("keymaps")
+      M.load("keymaps")
 
       LazyVim.format.setup()
       LazyVim.news.setup()
