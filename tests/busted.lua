@@ -19,7 +19,7 @@ vim.o.loadplugins = true -- enable since nvim -l disables plugins
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
-    { "LazyVim/LazyVim", dir = vim.fn.expand(".") },
+    { "s0r3-glitch/lazyvim", dir = vim.fn.expand(".") },
     "lunarmodules/busted", -- add busted
     "LazyVim/starter",
     { "nvim-lua/plenary.nvim" },

@@ -75,7 +75,7 @@ body:
         -- install plugins
         local plugins = {
           "folke/tokyonight.nvim",
-          { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+          { "s0r3-glitch/lazyvim", import = "lazyvim.plugins" },
           -- add any other plugins here
         }
         require("lazy").setup(plugins, {

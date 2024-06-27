@@ -12,4 +12,4 @@
 
 ## Checklist
 
-- [ ] I've read the [CONTRIBUTING](https://github.com/LazyVim/LazyVim/blob/main/CONTRIBUTING.md) guidelines.
+- [ ] I've read the [CONTRIBUTING](https://github.com/s0r3-glitch/lazyvim/blob/main/CONTRIBUTING.md) guidelines.
