@@ -12,5 +12,5 @@ require("lazyvim.config").init()
 
 return {
   { "folke/lazy.nvim", version = "*" },
-  { "s0r3-glitch/lazyvim", priority = 10000, lazy = false, opts = {}, cond = true, version = "*" },
+  { "s0r3-glitch/LazyVim", priority = 10000, lazy = false, opts = {}, cond = true, version = "*" },
 }

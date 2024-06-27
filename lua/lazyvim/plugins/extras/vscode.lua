@@ -40,7 +40,7 @@ vim.api.nvim_create_autocmd("User", {
 
 return {
   {
-    "s0r3-glitch/lazyvim",
+    "s0r3-glitch/LazyVim",
     config = function(_, opts)
       opts = opts or {}
       -- disable the colorscheme
