@@ -200,8 +200,6 @@ function M.setup(opts)
       })
     end,
   })
-
-  LazyVim.track()
 end
 
 ---@param buf? number
