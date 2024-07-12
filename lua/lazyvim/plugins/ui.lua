@@ -12,7 +12,7 @@ return {
       },
     },
     opts = {
-      stages = "static",
+      stages = "fade_in_slide_out",
       timeout = 3000,
       max_height = function()
         return math.floor(vim.o.lines * 0.75)
